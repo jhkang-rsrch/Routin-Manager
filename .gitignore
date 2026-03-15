@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# App data
+.data/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets
+.streamlit/secrets.toml
+supabase_config.json
